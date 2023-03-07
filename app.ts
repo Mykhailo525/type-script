@@ -47,3 +47,9 @@
 //     console.log(shape.perimeter());
 // }
 
+
+import {userService} from "./services/userService";
+
+userService.getAll().then(({data})=>{
+    console.log(data[0].address.city);
+})
