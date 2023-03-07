@@ -1,5 +1,4 @@
 import {apiService} from "./apiService";
-import {AxiosResponse} from "axios";
 import {IUser} from "../interfaces/userInterface";
 import {Ires} from "../interfaces/responsInterface";
 
