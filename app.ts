@@ -106,6 +106,7 @@ interface IUser {
     age: number;
     gender: string;
 }
+
 const user:IUser = {
     name: "Max",
     age: 18,
